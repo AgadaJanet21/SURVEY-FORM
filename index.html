@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SURVEY FORM</title>
+
+   
+<link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
+    <link href="vendors/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="vendors/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css" type="text/css">
+
+</head>
+<body>
+    
+<div class="container ">
+    <div class="row">
+        
+                <header>
+                <h1 id="title" class="text-center"> 
+                    KITCHEN'S PALACE SURVEY FORM 
+                </h1>
+                    <p id="description" class="description">Thank you for taking your time to help us improve the platform </p>
+                </header>
+            <form action="" id="survey-form">
+                    <div class="form-group">
+                    <label for="name" id="name" value="name">Name</label>
+                    <br>
+                    <input type="text" id="name" placeholder="Enter your name" class="form-control" required>
+                </div>
+                <div class="form-group">
+                    <label for="email" id="email" value="email">Email</label>
+                    <br>
+                    <input type="email" id="email" placeholder="Enter your Email" class="form-control" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="age" id="age" value="age">Age (optional):</label>
+                    <br>
+                    <input type="number" id="age" placeholder="Age" class="form-control" required>
+                </div>
+
+
+                <div class="form-group">
+                    <p>What option best describes your current mood?</p>
+                    <select name="role" id="dropdown" class="form-control" required >
+                    <option> Select current role</option>
+                <option value="vsatisfied">Very satisfied</option>
+                <option value="satisfied">Satisfied</option>
+                <option value="nsatisfied">Not satisfied</option>
+                <option value="other">Other</option>
+                </select>
+                </div>
+
+                <div class="form-group">
+                    <p>Would you recommend Kitchen's Palace to a Friend?</p>
+                    <label>
+                        <input name="user-recommendation" type="radio" value="definitely" class="input-radio" checked>  Definitely 
+                    </label>
+                    <br>
+                    <label>
+                        <input name="user-recommendation" type="radio" value="Maybe" class="input-radio">  Maybe
+                    </label>
+                    <br>
+                    <label>
+                        <input name="user-recommendation" type="radio" value="Not Sure" class="input-radio">  Not Sure 
+                    </label>
+                </div>
+
+                <div class="form-group">
+                    <p>What is your favorite feature of Kitchen's Palace?</p>
+                    <select name="most-like" id="most-like" class="form-control" required >
+                        <option> Select an option</option>
+                    <option value="outdoor">Outdoor</option>
+                    <option value="customer service">Customer Servive</option>
+                    <option value="food">The Food</option>
+                    <option value="other">Other</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <p>What would like us to improve?</p>
+                    <label>
+                        <input name="improve" type="checkbox" value="cs" class="input-checkbox" checked>  Customer Care 
+                    </label>
+                    <br>
+                    <label>
+                        <input name="improve" type="radio" value="food" class="input-checkbox">  Food
+                    </label>
+                    <br>
+                    <label>
+                        <input name="improve" type="radio" value="Not Sure" class="input-checkbox">  Outdoor 
+                    </label>
+                    <br>
+                    <label>
+                        <input name="improve" type="radio" value="Not Sure" class="input-checkbox">  Security Service 
+                    </label>
+                </div>
+                <div class="form-group">
+                    <p>Any comments or Suggestions?</p>
+                <textarea name="comments" rows="10" class="form-control" placeholder="Enter your comments"></textarea>
+                </div>
+                <br>
+                <div class="form-group">
+                    <button type="submit" id="submit" class="btn btn-success btn-lg btn-block"> Submit</button>
+                </div>
+            </form>
+       
+    </div>
+</div>
+
+
+
+
+
+
+
+
+<script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+ <script src="vendors/bootstrap/dist/js/bootstrap.min.js"></script>
+</body>
+</html>
